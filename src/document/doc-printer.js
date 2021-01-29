@@ -205,15 +205,11 @@ function fits(next, restCommands, width, options, hasLineSuffix, mustBeFlat) {
           break;
         case "if-break": {
           const groupMode = doc.groupId ? groupModeMap[doc.groupId] : mode;
-          if (groupMode === MODE_BREAK) {
-            if (doc.breakContents) {
-              cmds.push([ind, mode, doc.breakContents]);
-            }
+          if (groupMode === MODE_BREAK && doc.breakContents) {
+            cmds.push([ind, mode, doc.breakContents]);
           }
-          if (groupMode === MODE_FLAT) {
-            if (doc.flatContents) {
-              cmds.push([ind, mode, doc.flatContents]);
-            }
+          if (groupMode === MODE_FLAT && doc.flatContents) {
+            cmds.push([ind, mode, doc.flatContents]);
           }
 
           break;
@@ -458,15 +454,11 @@ function printDocToString(doc, options) {
         }
         case "if-break": {
           const groupMode = doc.groupId ? groupModeMap[doc.groupId] : mode;
-          if (groupMode === MODE_BREAK) {
-            if (doc.breakContents) {
-              cmds.push([ind, mode, doc.breakContents]);
-            }
+          if (groupMode === MODE_BREAK && doc.breakContents) {
+            cmds.push([ind, mode, doc.breakContents]);
           }
-          if (groupMode === MODE_FLAT) {
-            if (doc.flatContents) {
-              cmds.push([ind, mode, doc.flatContents]);
-            }
+          if (groupMode === MODE_FLAT && doc.flatContents) {
+            cmds.push([ind, mode, doc.flatContents]);
           }
 
           break;

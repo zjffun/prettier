@@ -28,6 +28,7 @@ rules:
   import/order: error
   no-else-return: error
   no-inner-declarations: error
+  no-lonely-if: error
   no-unneeded-ternary: error
   no-useless-return: error
   no-unused-vars:

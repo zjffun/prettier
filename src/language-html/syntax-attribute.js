@@ -1,6 +1,6 @@
 "use strict";
 
-const parseSrcset = require("parse-srcset");
+const parseSrcset = require("parse-srcset/src/parse-srcset.mjs");
 const {
   builders: { ifBreak, join, line },
 } = require("../document/index.js");

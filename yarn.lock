@@ -5240,9 +5240,9 @@ parse-json@^5.0.0, parse-json@^5.2.0:
     json-parse-even-better-errors "^2.3.0"
     lines-and-columns "^1.1.6"
 
-parse-srcset@ikatyang/parse-srcset#54eb9c1cb21db5c62b4d0e275d7249516df6f0ee:
+parse-srcset@zjffun/parse-srcset#a5e0f86997057ac6aa8bb065e79bc505a53273b2:
   version "1.0.2"
-  resolved "https://codeload.github.com/ikatyang/parse-srcset/tar.gz/54eb9c1cb21db5c62b4d0e275d7249516df6f0ee"
+  resolved "https://codeload.github.com/zjffun/parse-srcset/tar.gz/a5e0f86997057ac6aa8bb065e79bc505a53273b2"
 
 parse5@6.0.1:
   version "6.0.1"
